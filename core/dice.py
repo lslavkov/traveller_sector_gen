@@ -1,7 +1,7 @@
 import random
 
 
-def roll_d6(dice_amount: int) -> int:
+def roll_nd6(dice_amount: int) -> int:
     sum_value = 0
     for i in range(dice_amount):
         dice = random.randint(1, 6)
